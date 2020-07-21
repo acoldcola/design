@@ -7,6 +7,9 @@ public class MainClass {
     public static void main(String[] args) {
         SportFactory sportFactory = new SportFactory();
         Sport basketball = sportFactory.getSport("basketball");
+        PersonFactory personFactory = new PersonFactory();
+        Person woman = personFactory.getPerson("woman");
         basketball.play();
+        woman.say();
     }
 }

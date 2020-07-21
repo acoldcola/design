@@ -4,8 +4,14 @@
  * @Version 1.0
  * 工厂
  */
-public class SportFactory {
+public class SportFactory extends AbstractFactory{
 
+    @Override
+    public Person getPerson(String person) {
+        return null;
+    }
+
+    @Override
     public Sport getSport(String sportType) {
         if (sportType == null) {
             return null;
