@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4d962c80-a3fc-4425-8a0e-73a936646a84" name="Default Changelist" comment="" />
+    <list default="true" id="4d962c80-a3fc-4425-8a0e-73a936646a84" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/BasketballSport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/Sport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/SportFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/工厂模式/src/VolleyballSport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
@@ -34,6 +45,7 @@
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1eiY8uHOSECMgu9Gpccmxx2V1sY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -49,14 +61,14 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.370479" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (4)">
+  <component name="RunManager" selected="Application.MainClass (5)">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="装饰者模式" />
@@ -85,20 +97,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClass (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="观察者模式" />
+      <module name="工厂模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass (5)" />
         <item itemvalue="Application.MainClass (4)" />
         <item itemvalue="Application.MainClass (3)" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
@@ -129,7 +141,8 @@
       <updated>1594805724696</updated>
       <workItem from="1594805726253" duration="2544000" />
       <workItem from="1595215740522" duration="8440000" />
-      <workItem from="1595311893093" duration="1903000" />
+      <workItem from="1595311893093" duration="2646000" />
+      <workItem from="1595315315235" duration="822000" />
     </task>
     <servers />
   </component>
@@ -141,30 +154,30 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1595234642368" />
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1595223895944">
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1595315560780">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1595223895944" />
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1595315560780" />
     <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1595238260908">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1595238260908" />
-    <state width="1493" height="106" key="GridCell.Tab.0.bottom" timestamp="1595313123927">
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom" timestamp="1595316153488">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595313123927" />
-    <state width="1493" height="106" key="GridCell.Tab.0.center" timestamp="1595313123927">
+    <state width="1493" height="259" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595316153488" />
+    <state width="1493" height="259" key="GridCell.Tab.0.center" timestamp="1595316153488">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1595313123927" />
-    <state width="1493" height="106" key="GridCell.Tab.0.left" timestamp="1595313123927">
+    <state width="1493" height="259" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1595316153488" />
+    <state width="1493" height="259" key="GridCell.Tab.0.left" timestamp="1595316153487">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1595313123927" />
-    <state width="1493" height="106" key="GridCell.Tab.0.right" timestamp="1595313123927">
+    <state width="1493" height="259" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1595316153487" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right" timestamp="1595316153488">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="106" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1595313123927" />
+    <state width="1493" height="259" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1595316153488" />
     <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1595312981058">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -197,14 +210,14 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1595311919681">
+    <state x="249" y="7" key="SettingsEditor" timestamp="1595315287280">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1595311919681" />
-    <state x="178" y="0" key="new project wizard" timestamp="1595311917264">
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1595315287280" />
+    <state x="178" y="0" key="new project wizard" timestamp="1595315216327">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1595311917264" />
+    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1595315216327" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595216784713">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
