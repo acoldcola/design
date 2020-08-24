@@ -2,18 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4d962c80-a3fc-4425-8a0e-73a936646a84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/策略模式/策略模式.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/责任链模式/src/AbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/责任链模式/src/ChainPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/责任链模式/src/DebugAbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/责任链模式/src/ErrorAbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/责任链模式/src/InfoAbstractLogger.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/责任链模式/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板方法模式/src/Eat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板方法模式/src/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板方法模式/src/OneEat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/模板方法模式/src/TwoEat.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/动态代理模式/动态代理模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/动态代理模式/动态代理模式.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/静态代理模式/静态代理模式.iml" beforeDir="false" afterPath="$PROJECT_DIR$/静态代理模式/静态代理模式.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,7 +71,7 @@
       <recent name="D:\java\design\抽象工厂模式\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (2)">
+  <component name="RunManager" selected="Application.MainClass (3)">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="策略模式" />
@@ -92,9 +86,9 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClass (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="单例模式" />
+      <module name="模板方法模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -115,11 +109,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MainClass (3)" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.MainClass (5)" />
-        <item itemvalue="Application.MainClass (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +149,7 @@
       <workItem from="1595406093609" duration="1964000" />
       <workItem from="1597044316892" duration="5718000" />
       <workItem from="1597109278947" duration="1482000" />
-      <workItem from="1598236983054" duration="2388000" />
+      <workItem from="1598236983054" duration="7252000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式">
       <created>1595316205514</created>
@@ -178,7 +172,14 @@
       <option name="project" value="LOCAL" />
       <updated>1597109299448</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="责任链模式">
+      <created>1598250500010</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1598250500010</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -188,21 +189,22 @@
     <MESSAGE value="工厂模式" />
     <MESSAGE value="抽象工厂模式" />
     <MESSAGE value="策略模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="策略模式" />
+    <MESSAGE value="责任链模式" />
+    <option name="LAST_COMMIT_MESSAGE" value="责任链模式" />
   </component>
   <component name="WindowStateProjectService">
     <state x="361" y="91" key="#Project_Structure" timestamp="1595234642368">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1595234642368" />
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1598250021584">
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1598255489135">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1598250021584" />
-    <state x="372" y="19" key="CommitChangelistDialog2" timestamp="1597109297792">
+    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1598255489135" />
+    <state x="372" y="16" key="CommitChangelistDialog2" timestamp="1598250498413">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="19" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1597109297792" />
+    <state x="372" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598250498413" />
     <state x="147" y="74" key="DiffContextDialog" timestamp="1595316196441">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -211,22 +213,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1598237135161" />
-    <state width="1493" height="120" key="GridCell.Tab.0.bottom" timestamp="1597054202965">
+    <state width="1493" height="100" key="GridCell.Tab.0.bottom" timestamp="1598255594049">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1597054202965" />
-    <state width="1493" height="120" key="GridCell.Tab.0.center" timestamp="1597054202965">
+    <state width="1493" height="100" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598255594049" />
+    <state width="1493" height="100" key="GridCell.Tab.0.center" timestamp="1598255594049">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1597054202965" />
-    <state width="1493" height="120" key="GridCell.Tab.0.left" timestamp="1597054202965">
+    <state width="1493" height="100" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598255594049" />
+    <state width="1493" height="100" key="GridCell.Tab.0.left" timestamp="1598255594048">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1597054202965" />
-    <state width="1493" height="120" key="GridCell.Tab.0.right" timestamp="1597054202965">
+    <state width="1493" height="100" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598255594048" />
+    <state width="1493" height="100" key="GridCell.Tab.0.right" timestamp="1598255594049">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="120" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1597054202965" />
+    <state width="1493" height="100" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598255594049" />
     <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1595312981058">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
@@ -259,22 +261,22 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1598248864298">
+    <state x="249" y="7" key="SettingsEditor" timestamp="1598254930926">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1598248864298" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1597109301338">
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1598254930926" />
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598250501534">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1597109301338" />
-    <state x="178" y="0" key="new project wizard" timestamp="1598248858080">
+    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598250501534" />
+    <state x="178" y="0" key="new project wizard" timestamp="1598254927805">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1598248858080" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1595216784713">
+    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1598254927805" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1598251878051">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1595216784713" />
+    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1598251878051" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
