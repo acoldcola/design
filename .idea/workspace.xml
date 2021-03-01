@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="ALL" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d962c80-a3fc-4425-8a0e-73a936646a84" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/模板方法模式/src/Eat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模板方法模式/src/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模板方法模式/src/OneEat.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/模板方法模式/src/TwoEat.java" afterDir="false" />
+    <list default="true" id="4d962c80-a3fc-4425-8a0e-73a936646a84" name="Default Changelist" comment="模板方式方法">
+      <change afterPath="$PROJECT_DIR$/模板方法模式/模板方法模式.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生产者消费者模式/src/ProducerConsumerByReentrantLock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/生产者消费者模式/生产者消费者模式.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/责任链模式/责任链模式.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -25,6 +28,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="a2815150-0f66-4f0d-b552-487253cabec4" />
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
@@ -35,7 +39,6 @@
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="downloadSourcesAutomatically" value="true" />
-        <option name="importAutomatically" value="true" />
       </MavenImportingSettings>
     </option>
   </component>
@@ -47,7 +50,6 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -55,7 +57,9 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../spd2020" />
+    <property name="full.screen.before.presentation.mode" value="false" />
+    <property name="go.import.settings.migrated" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -71,7 +75,7 @@
       <recent name="D:\java\design\抽象工厂模式\src" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.MainClass (3)">
+  <component name="RunManager" selected="Application.ProducerConsumerByReentrantLock">
     <configuration name="MainClass (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
       <module name="策略模式" />
@@ -93,42 +97,44 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass (5)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="MainClass (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="工厂模式" />
+      <module name="动态代理模式" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="MainClass" />
-      <module name="抽象工厂模式" />
+    <configuration name="ProducerConsumerByReentrantLock" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProducerConsumerByReentrantLock" />
+      <module name="生产者消费者模式" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ProducerConsumerByReentrantLock" />
+        <item itemvalue="Application.MainClass (4)" />
         <item itemvalue="Application.MainClass (3)" />
         <item itemvalue="Application.MainClass (2)" />
         <item itemvalue="Application.MainClass (1)" />
-        <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.MainClass (5)" />
       </list>
     </recent_temporary>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
   </component>
@@ -149,7 +155,13 @@
       <workItem from="1595406093609" duration="1964000" />
       <workItem from="1597044316892" duration="5718000" />
       <workItem from="1597109278947" duration="1482000" />
-      <workItem from="1598236983054" duration="7252000" />
+      <workItem from="1598236983054" duration="8482000" />
+      <workItem from="1602600495471" duration="1987000" />
+      <workItem from="1602494953723" duration="598000" />
+      <workItem from="1602551485499" duration="4092000" />
+      <workItem from="1607155175306" duration="1712000" />
+      <workItem from="1614585647219" duration="85000" />
+      <workItem from="1614585738227" duration="4633000" />
     </task>
     <task id="LOCAL-00001" summary="工厂模式">
       <created>1595316205514</created>
@@ -179,104 +191,100 @@
       <option name="project" value="LOCAL" />
       <updated>1598250500010</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="模板方式方法">
+      <created>1598255726252</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1598255726252</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="工厂模式" />
     <MESSAGE value="抽象工厂模式" />
     <MESSAGE value="策略模式" />
     <MESSAGE value="责任链模式" />
-    <option name="LAST_COMMIT_MESSAGE" value="责任链模式" />
+    <MESSAGE value="模板方式方法" />
+    <option name="LAST_COMMIT_MESSAGE" value="模板方式方法" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="361" y="91" key="#Project_Structure" timestamp="1595234642368">
+    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser" timestamp="1614587971739">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="361" y="91" key="#Project_Structure/0.0.1536.864@0.0.1536.864" timestamp="1595234642368" />
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser" timestamp="1598255489135">
+    <state x="387" y="0" key="#com.intellij.ide.util.MemberChooser.inPresentationMode" timestamp="1614586432688">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="574" y="142" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1598255489135" />
-    <state x="372" y="16" key="CommitChangelistDialog2" timestamp="1598250498413">
+    <state x="387" y="0" key="#com.intellij.ide.util.MemberChooser.inPresentationMode/0.0.1536.864@0.0.1536.864" timestamp="1614586432688" />
+    <state x="574" y="138" key="#com.intellij.ide.util.MemberChooser/0.0.1536.864@0.0.1536.864" timestamp="1614587971739" />
+    <state x="367" y="0" key="CommitChangelistDialog2" timestamp="1614585867771">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="372" y="16" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1598250498413" />
-    <state x="147" y="74" key="DiffContextDialog" timestamp="1595316196441">
+    <state x="367" y="0" key="CommitChangelistDialog2/0.0.1536.864@0.0.1536.864" timestamp="1614585867771" />
+    <state x="147" y="69" key="DiffContextDialog" timestamp="1614585865937">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="147" y="74" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1595316196441" />
-    <state x="549" y="188" key="FileChooserDialogImpl" timestamp="1598237135161">
+    <state x="147" y="69" key="DiffContextDialog/0.0.1536.864@0.0.1536.864" timestamp="1614585865937" />
+    <state width="1493" height="415" key="GridCell.Tab.0.bottom" timestamp="1614590327475">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="549" y="188" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1598237135161" />
-    <state width="1493" height="100" key="GridCell.Tab.0.bottom" timestamp="1598255594049">
+    <state width="1493" height="415" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614590327475" />
+    <state width="1493" height="415" key="GridCell.Tab.0.center" timestamp="1614590327475">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1598255594049" />
-    <state width="1493" height="100" key="GridCell.Tab.0.center" timestamp="1598255594049">
+    <state width="1493" height="415" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1614590327475" />
+    <state width="1493" height="415" key="GridCell.Tab.0.left" timestamp="1614590327475">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1598255594049" />
-    <state width="1493" height="100" key="GridCell.Tab.0.left" timestamp="1598255594048">
+    <state width="1493" height="415" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1614590327475" />
+    <state width="1493" height="415" key="GridCell.Tab.0.right" timestamp="1614590327475">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1598255594048" />
-    <state width="1493" height="100" key="GridCell.Tab.0.right" timestamp="1598255594049">
+    <state width="1493" height="415" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1614590327475" />
+    <state width="1493" height="415" key="GridCell.Tab.1.bottom" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="100" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1598255594049" />
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state width="1493" height="415" key="GridCell.Tab.1.center" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state width="1493" height="266" key="GridCell.Tab.1.center" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state width="1493" height="415" key="GridCell.Tab.1.left" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.center/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state width="1493" height="266" key="GridCell.Tab.1.left" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state width="1493" height="415" key="GridCell.Tab.1.right" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.left/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state width="1493" height="266" key="GridCell.Tab.1.right" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state width="1493" height="415" key="GridCell.Tab.2.bottom" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.1.right/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom" timestamp="1595312981059">
+    <state width="1493" height="415" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state width="1493" height="415" key="GridCell.Tab.2.center" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.bottom/0.0.1536.864@0.0.1536.864" timestamp="1595312981059" />
-    <state width="1493" height="266" key="GridCell.Tab.2.center" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state width="1493" height="415" key="GridCell.Tab.2.left" timestamp="1614590327475">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.center/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state width="1493" height="266" key="GridCell.Tab.2.left" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1614590327475" />
+    <state width="1493" height="415" key="GridCell.Tab.2.right" timestamp="1614590327476">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.left/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state width="1493" height="266" key="GridCell.Tab.2.right" timestamp="1595312981058">
+    <state width="1493" height="415" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1614590327476" />
+    <state x="249" y="7" key="SettingsEditor" timestamp="1614585723558">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="1493" height="266" key="GridCell.Tab.2.right/0.0.1536.864@0.0.1536.864" timestamp="1595312981058" />
-    <state x="249" y="7" key="SettingsEditor" timestamp="1598254930926">
+    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1614585723558" />
+    <state x="178" y="85" key="new project wizard" timestamp="1614585887879">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state x="249" y="7" key="SettingsEditor/0.0.1536.864@0.0.1536.864" timestamp="1598254930926" />
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2" timestamp="1598250501534">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="361" y="166" key="Vcs.Push.Dialog.v2/0.0.1536.864@0.0.1536.864" timestamp="1598250501534" />
-    <state x="178" y="0" key="new project wizard" timestamp="1598254927805">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="178" y="0" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1598254927805" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1598251878051">
-      <screen x="0" y="0" width="1536" height="864" />
-    </state>
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1598251878051" />
+    <state x="178" y="85" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1614585887879" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -293,6 +301,11 @@
           <url>file://$PROJECT_DIR$/单例模式/src/Singleton.java</url>
           <line>14</line>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/动态代理模式/src/MainClass.java</url>
+          <line>9</line>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
